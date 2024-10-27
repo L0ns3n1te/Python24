@@ -7,4 +7,4 @@ for i in range(months):
     money_capital += spend-salary
     spend *= 1+increase
 
-print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", int(money_capital))
+print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", int(money_capital)+1)
